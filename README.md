@@ -49,6 +49,4 @@ The Random Forest ensemble proved to be the optimal architecture, successfully c
 
 ### Model Performance Comparison
 
-![Performance](ROC.png)
-
 Stratified 5-fold CV F1-Scores demonstrating Random Forest
