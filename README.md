@@ -6,7 +6,6 @@ Predicting complications following a myocardial infarction (MI) is crucial for p
 
 This project evaluates the tension between algorithmic complexity and constrained data volume. To establish a rigorous mathematical baseline, a Logistic Regression model was derived and implemented entirely from scratch using NumPy. Its performance was then systematically compared against hyperparameter-optimized Multi-Layer Perceptron (MLP) and Random Forest architectures.
 
-Full Research Paper: [Read the ACM-formatted Final Report (PDF)](Machine%20Learning%20Project%20(1).pdf)
 
 ## Technical Highlights
 
@@ -47,12 +46,6 @@ Full Research Paper: [Read the ACM-formatted Final Report (PDF)](Machine%20Learn
 ## Results & Visualizations
 
 The Random Forest ensemble proved to be the optimal architecture, successfully capturing complex clinical interactions without overfitting, achieving an Accuracy of 82.0% and an AUC of 0.902. Notably, the regularized MLP essentially collapsed into a generalized linear approximation, performing virtually identically to the custom-built mathematical baseline.
-
-### Custom Logistic Regression: Convergence
-
-![Convergence](Gradient_descent.png)
-
-Textbook mathematical convergence of the custom-built gradient descent optimizer, minimizing binary cross-entropy.
 
 ### Model Performance Comparison
 
